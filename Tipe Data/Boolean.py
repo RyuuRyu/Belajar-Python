@@ -6,8 +6,9 @@ b = False
 ## Tipe data Boolean adalah tipe data yang hanya memiliki dua nilai, yaitu True atau False.
 ## Tipe data ini biasanya digunakan untuk kondisi atau perbandingan.
 
-# print(a)
-# print(b)
+print(a)
+print(b)
+print("\n")
 
 ## Di atas adalah cara mendeklarasikan variabel dengan tipe data Boolean.
 ## Tipe data ini erat kaitannya dengan sebuah kondisi atau perbandingan.
@@ -15,13 +16,19 @@ b = False
 
 ### Contoh 1
 print("Apakah 10 lebih dari 5?\n", 10 > 5)
-print("\n")
 
 print("Apakah 10 kurang dari 5?\n", 10 < 5)
-print("\n")
 
 print("Apakah 10 sama dengan 5?\n", 10 == 5)
-print("\n")
 
 print("Apakah hasil dari 10 + 5 lebih dari 10?\n", 10 + 5 > 10)
 print("\n")
+
+## Contoh 2
+x = 100
+y = 200
+
+if x > y :
+    print("x lebih besar dari y")
+else:   
+   print("x lebih kecil dari y")

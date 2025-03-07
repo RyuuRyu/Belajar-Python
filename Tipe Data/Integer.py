@@ -3,6 +3,8 @@
 a = 10
 b = 5
 
+print(a, b)
+
 ## Diatas adalah cara mendeklarasikan variabel dengan tipe data Integer.
 ## Berbeda dengan String, tipe data Integer tidak memerlukan tanda kutip.
 ## Tipe data Integer adalah tipe data yang berisi bilangan bulat.
@@ -57,3 +59,19 @@ tinggi = 5
 
 print("Luas segitiga tersebut adalah", 1/2 * alas * tinggi)
 print("\n")
+
+
+### Number Casting (Konversi Tipe Data)
+
+## Pada Ptyhon, kita bisa mengkonversi tipe data integer ke float, atau sebaliknya.
+
+### Contoh 4
+pembulatan = (int(10.5))
+print("10.5 dibulatkan akan menjadi", pembulatan)
+
+## Pada contoh diatas, 10.5 dikonversi menjadi angka bulat dengan menggunakan fungsi int().
+## Maka outputnya adalah 10, karena 10.5 dibulatkan ke bawah menjadi 10.
+
+### Contoh 5
+pembulatan2 = (int(3.14))
+print("3.14 dibulatkan akan menjadi", pembulatan2)

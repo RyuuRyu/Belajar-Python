@@ -1,6 +1,7 @@
 ### Tipe Data Float
 a = 10.5
 b = 5.5
+print(a, b)
 
 ## Tipe data float adalah tipe data yang berisi bilangan desimal.
 ## Berbeda dengan integer, float ditulis dengan menggunakan tanda titik (.)

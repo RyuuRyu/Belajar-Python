@@ -16,13 +16,13 @@ b = 5
 ## Pangkat = **
 ## Pembagian Bulat = //
 
-## Contoh 1
+### Contoh 1
 print("Hasil dari 10 + 5 adalah", a + b)
 print("\n")
 
 ## Kita juga bisa menyimpan hasil operasi matematika ke dalam variabel sebuah variabel
 
-## Contoh 2
+### Contoh 2
 x = 50
 y = 10
 z = x - y
@@ -32,7 +32,7 @@ print("\n")
 
 ## Kita juga bisa melakukan operasi matematika langsung pada print statement
 
-## Contoh 3
+### Contoh 3
 print("Hasil dari 100 * 2 adalah", 100 * 2)
 print("\n")
 

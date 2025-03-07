@@ -13,7 +13,7 @@ b = False
 ## Tipe data ini erat kaitannya dengan sebuah kondisi atau perbandingan.
 ## Analogi sederhana dari Boolean adalah "Ya" dan "Tidak" atau "Benar" dan "Salah"
 
-## Contoh 1
+### Contoh 1
 print("Apakah 10 lebih dari 5?\n", 10 > 5)
 print("\n")
 

@@ -26,6 +26,10 @@ print ("\n")
 print ("Hello, my name is {}. and I am {} years old. I love {}".format(name, age, hobby))
 print("\n")
 
+### Mendeklarasikan beberapa Variabel dan memanggilnya secara bersamaan
+umur, nama, hobbi = 20, "Jonathan", "Drawing"
+print (umur, nama, hobbi)
+
 ### Note!
 
 ## Pada pemanggilan variabel pada text smenggunakan operator +, untuk variabel age ditulis str(age).

@@ -81,4 +81,28 @@ print('Halo, nama saya "Ryu"\n')
 ## Maka kita bisa menggunakan Blackslash seperti pada contoh lainnya diatas.
 
 print("\"E = mc\u00b2\"\n-Albert Einstein")
+print("\n")
+
+### String Methods
+
+## String Methods adalah method yang digunakan untuk memanipulasi tipe data String.
+## Beberapa method yang sering digunakan adalah:
+## 1. capitalize() = Mengubah huruf pertama dari text menjadi huruf kapital.
+## 2. lower() = Mengubah semua huruf dalam text menjadi huruf kecil.
+## 3. upper() = Mengubah semua huruf dalam text menjadi huruf kapital.
+## 4. replace() = Mengganti text dengan text lainnya.
+## 5. split() = Memisahkan text menjadi List.
+## 6. join() = Menggabungkan text dari List.
+
+### Contoh 5
+
+text = "Halo, nama saya adalah Ryu"
+print(text.capitalize()) 
+print(text.lower())
+print(text.upper())
+print(text.replace("Ryu", "Jonathan"))
+print(text.split())
+
+## Selain contoh diatas, ada banyak method lainnya yang bisa digunakan untuk memanipulasi tipe data String.
+## Kita bisa mencari method-method tersebut di dokumentasi Python atau https://www.w3schools.com/python/ref_string_center.asp
 

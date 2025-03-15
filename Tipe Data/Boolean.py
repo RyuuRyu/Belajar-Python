@@ -24,7 +24,7 @@ print("Apakah 10 sama dengan 5?\n", 10 == 5)
 print("Apakah hasil dari 10 + 5 lebih dari 10?\n", 10 + 5 > 10)
 print("\n")
 
-## Contoh 2
+### Contoh 2
 x = 100
 y = 200
 
@@ -32,3 +32,16 @@ if x > y :
     print("x lebih besar dari y")
 else:   
    print("x lebih kecil dari y")
+
+## FUngsi juga bisa mengembalikan nilai Boolean
+
+### Contoh 3
+
+def cekAngka(angka):
+    if angka > 100:
+        return True
+    else:
+        return False
+    
+print(cekAngka(200))
+print(cekAngka(50))
